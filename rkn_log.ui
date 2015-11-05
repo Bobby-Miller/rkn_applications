@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>449</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="17" column="1" colspan="2">
+     <widget class="QLineEdit" name="ng_left_input"/>
+    </item>
+    <item row="21" column="2" colspan="2">
+     <widget class="QPushButton" name="submit_button">
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="20" column="4">
+     <widget class="QLineEdit" name="ca_dp_input_3"/>
+    </item>
+    <item row="20" column="3">
+     <widget class="QLineEdit" name="ca_right_input_3"/>
+    </item>
+    <item row="19" column="4">
+     <widget class="QLabel" name="ca_dp_label_3">
+      <property name="text">
+       <string>Prab Temperature</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="3">
+     <widget class="QLabel" name="ca_right_label_3">
+      <property name="text">
+       <string>West Wall Damper Setting</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="3">
+     <widget class="QLabel" name="aa_bottom_label">
+      <property name="text">
+       <string>Bottom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="1" colspan="2">
+     <widget class="QLabel" name="ca_left_label_3">
+      <property name="text">
+       <string>Blleder Impulse Pressure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="3">
+     <widget class="QLineEdit" name="aa_bot_input"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="temp_sp_label">
+      <property name="text">
+       <string>Temp Setpoint</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1" colspan="2">
+     <widget class="QLineEdit" name="ca_left_input"/>
+    </item>
+    <item row="13" column="1">
+     <widget class="QLabel" name="aa_top_label">
+      <property name="text">
+       <string>Top</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLabel" name="temp_act_label">
+      <property name="text">
+       <string>Temp Actual</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="ca_vlv_op_label">
+      <property name="text">
+       <string>Comb. Air Valve output</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="1" colspan="2">
+     <widget class="QLineEdit" name="aa_top_input"/>
+    </item>
+    <item row="7" column="1" colspan="2">
+     <widget class="QLineEdit" name="temp_sp_input"/>
+    </item>
+    <item row="13" column="4">
+     <widget class="QLabel" name="aa_dp_label">
+      <property name="text">
+       <string>dP</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLineEdit" name="temp_act_input"/>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLineEdit" name="ca_vlv_op_input"/>
+    </item>
+    <item row="14" column="4">
+     <widget class="QLineEdit" name="aa_dp_input"/>
+    </item>
+    <item row="8" column="0" rowspan="2" colspan="5">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="1">
+     <widget class="QLabel" name="nat_gas_label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Natural Gas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="3">
+     <widget class="QLabel" name="ng_right_label">
+      <property name="text">
+       <string>Right</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="0" rowspan="2" colspan="5">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLabel" name="app_label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; font-style:italic;&quot;&gt;Rotary Kiln Log&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLabel" name="combustion_air_label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Combustion Air&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="4">
+     <widget class="QLineEdit" name="ng_dp_input"/>
+    </item>
+    <item row="11" column="4">
+     <widget class="QLineEdit" name="ca_dp_input"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLabel" name="atomizing_air_label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Atomizing Air&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="4">
+     <widget class="QLabel" name="ca_dp_label">
+      <property name="text">
+       <string>dP</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="3">
+     <widget class="QLineEdit" name="ng_right_input"/>
+    </item>
+    <item row="16" column="1">
+     <widget class="QLabel" name="ng_left_label">
+      <property name="text">
+       <string>Left</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3">
+     <widget class="QLineEdit" name="ca_right_input"/>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLabel" name="ca_left_label">
+      <property name="text">
+       <string>Left</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="QLabel" name="ca_right_label">
+      <property name="text">
+       <string>Right</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="4">
+     <widget class="QLabel" name="ng_dp_label">
+      <property name="text">
+       <string>dP</string>
+      </property>
+     </widget>
+    </item>
+    <item row="20" column="1" colspan="2">
+     <widget class="QLineEdit" name="ca_left_input_3"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>449</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>temp_sp_input</tabstop>
+  <tabstop>temp_act_input</tabstop>
+  <tabstop>ca_vlv_op_input</tabstop>
+  <tabstop>ca_left_input</tabstop>
+  <tabstop>ca_right_input</tabstop>
+  <tabstop>ca_dp_input</tabstop>
+  <tabstop>aa_top_input</tabstop>
+  <tabstop>aa_bot_input</tabstop>
+  <tabstop>aa_dp_input</tabstop>
+  <tabstop>ng_left_input</tabstop>
+  <tabstop>ng_right_input</tabstop>
+  <tabstop>ng_dp_input</tabstop>
+  <tabstop>ca_left_input_3</tabstop>
+  <tabstop>ca_right_input_3</tabstop>
+  <tabstop>ca_dp_input_3</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
